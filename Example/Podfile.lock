@@ -1,16 +1,13 @@
 PODS:
-  - fuikit (0.1.5):
-    - fuikit/Core (= 0.1.5)
-    - fuikit/CoreBluetooth (= 0.1.5)
-    - fuikit/CoreLocation (= 0.1.5)
   - fuikit/Core (0.1.5)
-  - fuikit/CoreBluetooth (0.1.5)
-  - fuikit/CoreLocation (0.1.5)
   - FunNet (0.1.1):
     - FunNet/Combine (= 0.1.1)
     - FunNet/Core (= 0.1.1)
     - FunNet/Multipart (= 0.1.1)
     - FunNet/ReactiveSwift (= 0.1.1)
+    - LithoOperators
+  - FunNet/Combine (0.1.1):
+    - FunNet/Core
     - LithoOperators
   - FunNet/Core (0.1.1):
     - LithoOperators
@@ -25,7 +22,7 @@ PODS:
   - LithoOperators (0.1.4):
     - Prelude
   - LithoUtils/Core (0.1.0):
-    - fuikit
+    - fuikit/Core
     - LithoOperators
   - Prelude (3.0.0)
   - ReactiveSwift (6.6.0)
@@ -56,10 +53,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LithoOperators:
-    :commit: 45b0921a2944eb8c9bd4208ba71db837d163f7be
+    :commit: d94e411292520ba65e4c003ec5efc56c27bb3cc1
     :git: https://github.com/ThryvInc/LithoOperators
   LithoUtils:
-    :commit: ab690d6a0e1ca0db425d53ae90462246e8d1342e
+    :commit: 450a9a84fb7be098152584495afc587d6c85a138
     :git: https://github.com/ThryvInc/litho-utils
   Slippers:
     :commit: c73ac0ab4d39bf981dda7caa23d959a5f22f2bb9
@@ -69,11 +66,11 @@ SPEC CHECKSUMS:
   fuikit: 976080e1c04037e01d14541135a104cb208d8c0d
   FunNet: f8bb223e1ec7d5e286ec6f3f9d59d8b7b685df1d
   LithoOperators: 8fc0c6a49e34a8d1ca01b777844f58e36c062d9f
-  LithoUtils: 3d89146680c1a7449334069cc75a092c32dde585
+  LithoUtils: 672d313a7fede3968e22f082b293cbc01ebcb7f0
   Prelude: fe4cc0fd961d34edf48fe6b04d05c863449efb0a
   ReactiveSwift: be9407e2aaf8a11e53a5229255693cffd9a63ccf
   Slippers: 3814c93fd93305f918a984e724d5db4d9569a660
 
-PODFILE CHECKSUM: 71d92ec7362f6edf83bb6ed63a788ef23e307e8a
+PODFILE CHECKSUM: fb1bdbc6b1ac53e7aa6fa0e68e4233c66496a1c8
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
