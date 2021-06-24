@@ -6,6 +6,7 @@ target 'FunNet_Example' do
   pod 'LithoOperators', git: 'https://github.com/ThryvInc/LithoOperators', branch: 'cjc8/new-operators'
   pod 'Slippers', git: 'https://github.com/ThryvInc/slippers'
   pod 'LithoUtils/Core', git: 'https://github.com/ThryvInc/litho-utils'
+  pod 'PlaygroundVCHelpers', git: 'https://github.com/ThryvInc/playground-vc-helpers'
   
   target 'FunNet_Tests' do
     inherit! :search_paths
